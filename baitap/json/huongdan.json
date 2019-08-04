@@ -1,0 +1,14 @@
+[
+    {
+        "img":"image/icon1.png",
+        "text": "Nạp thẻ điện thoại"
+    },
+    {
+        "img":"image/icon2.png",
+        "text": "Thanh toán hóa đơn"
+    },
+    {
+        "img":"image/icon3.png",
+        "text": "Mua thẻ game"
+    }
+]

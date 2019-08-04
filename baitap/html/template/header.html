@@ -1,0 +1,20 @@
+<div class="header" ng-controller="menu">
+        <div class="container">
+                <div class="icontrangchu">
+                        <a href="">
+                                <img src="https://news.chpayplus.vn/wp-content/uploads/2019/02/cropped-logo.png" alt="">
+                        </a>
+                </div>
+                <div class="menu">
+                        <nav class="nav navbar-expand-lg thanhmenu">
+                                <ul ng-repeat="x in menu">
+                                        <li class="nav-item">
+                                                <a class="navbar-brand" href="#!{{x.url}}">{{x.name}}</a>
+                                        </li>
+                                </ul>
+
+                        </nav>
+                </div>
+
+        </div>
+</div>

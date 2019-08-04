@@ -1,0 +1,29 @@
+<div class="tintuc" ng-controller="tintuc" ng-init="init()">
+        <h3>Tin tức</h3>
+        <div class="tin1" ng-repeat="x in new">
+            <div class="left"> <img ng-src="{{x.img}}"></div>
+            <div class="right">
+                <div class="top "><a href="https://www.facebook.com/">{{x.text}}</a></div>
+                <div class="mid">
+                    <div class="mh-meta mh-loop-meta">
+                        <span class="mh-meta-date updated"><i class="fa fa-clock-o"></i>Tháng Hai 19, 2019</span>
+                        <span class="mh-meta-author author vcard"><i class="fa fa-user"></i><a class="fn"
+                                href="https://news.chpayplus.vn/author/root/">root</a></span>
+                        <span class="mh-meta-comments"><i class="fa fa-comment-o"></i><a class="mh-comment-count-link"
+                                href="https://news.chpayplus.vn/2019/02/19/bidv-danh-hon-300-trieu-dong-ho-tro-gia-dinh-co-nan-nhan-thiet-mang-trong-dot-mua-lu-tai-cac-tinh-tay-bac-bac-trung-bo-2/#mh-comments">0</a></span>
+                    </div>
+                </div>
+                <div class="bot">
+                    <p>{{x.body}}</p>
+                </div>
+            </div>  
+    
+        </div>
+    
+        <nav class="nav pagination" role="navigation">
+                    <p class="page" ng-class="{current: page1}"  ng-click="init(1)">1</p>
+                    <p class="page" ng-class="{current: page2}"  ng-click="init(2)">2</p>
+                    
+          
+        </nav>
+    </div>

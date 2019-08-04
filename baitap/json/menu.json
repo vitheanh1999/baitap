@@ -1,0 +1,22 @@
+[
+    {
+        "url" : "trangchu",
+        "name" : "TRANG CHỦ"
+    },
+    {
+        "url" : "dichvu",
+        "name" : "DỊCH VỤ"
+    },
+    {
+        "url" : "nganhang",
+        "name" : "NGÂN HÀNG"
+    },
+    {
+        "url" : "tintuc",
+        "name" : "TIN TỨC"
+    },
+    {
+        "url" : "lienhe",
+        "name" : "LIÊN HỆ"
+    }
+]
